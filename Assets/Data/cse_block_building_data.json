@@ -1,0 +1,187 @@
+{
+  "_comment": "PLACEHOLDER DATA - Replace with actual CSE block measurements from Sathyabama Institute of Science and Technology. All coordinates, room numbers, and layouts are sample data for demonstration purposes only.",
+  "floors": [
+    {
+      "floorId": "F0",
+      "floorName": "Ground Floor",
+      "floorNumber": 0,
+      "description": "Main entrance, CSE Office, Lab 1, and reception area"
+    },
+    {
+      "floorId": "F1",
+      "floorName": "First Floor",
+      "floorNumber": 1,
+      "description": "Classrooms 101-102, Lab 2, Faculty rooms"
+    },
+    {
+      "floorId": "F2",
+      "floorName": "Second Floor",
+      "floorNumber": 2,
+      "description": "Classrooms 201-202, Lab 3, Seminar Hall"
+    }
+  ],
+  "destinations": [
+    {
+      "destinationId": "DEST_ENTRANCE",
+      "destinationName": "Main Entrance",
+      "department": "Computer Science and Engineering",
+      "floorId": "F0",
+      "navigationNodeId": "N_F0_ENTRANCE",
+      "destinationType": "Entrance",
+      "description": "CSE Block main entrance from campus road"
+    },
+    {
+      "destinationId": "DEST_CSE_OFFICE",
+      "destinationName": "CSE Department Office",
+      "department": "Computer Science and Engineering",
+      "floorId": "F0",
+      "navigationNodeId": "N_F0_OFFICE",
+      "destinationType": "FacultyRoom",
+      "description": "Department office and administrative area"
+    },
+    {
+      "destinationId": "DEST_LAB1",
+      "destinationName": "CSE Lab 1",
+      "department": "Computer Science and Engineering",
+      "floorId": "F0",
+      "navigationNodeId": "N_F0_LAB1",
+      "destinationType": "Laboratory",
+      "description": "Computer laboratory on ground floor"
+    },
+    {
+      "destinationId": "DEST_ROOM101",
+      "destinationName": "Room 101",
+      "department": "Computer Science and Engineering",
+      "floorId": "F1",
+      "navigationNodeId": "N_F1_ROOM101",
+      "destinationType": "Classroom",
+      "description": "First floor classroom"
+    },
+    {
+      "destinationId": "DEST_ROOM102",
+      "destinationName": "Room 102",
+      "department": "Computer Science and Engineering",
+      "floorId": "F1",
+      "navigationNodeId": "N_F1_ROOM102",
+      "destinationType": "Classroom",
+      "description": "First floor classroom"
+    },
+    {
+      "destinationId": "DEST_LAB2",
+      "destinationName": "CSE Lab 2",
+      "department": "Computer Science and Engineering",
+      "floorId": "F1",
+      "navigationNodeId": "N_F1_LAB2",
+      "destinationType": "Laboratory",
+      "description": "Computer laboratory on first floor"
+    },
+    {
+      "destinationId": "DEST_FACULTY1",
+      "destinationName": "Faculty Room 1",
+      "department": "Computer Science and Engineering",
+      "floorId": "F1",
+      "navigationNodeId": "N_F1_FACULTY1",
+      "destinationType": "FacultyRoom",
+      "description": "Faculty office on first floor"
+    },
+    {
+      "destinationId": "DEST_ROOM201",
+      "destinationName": "Room 201",
+      "department": "Computer Science and Engineering",
+      "floorId": "F2",
+      "navigationNodeId": "N_F2_ROOM201",
+      "destinationType": "Classroom",
+      "description": "Second floor classroom"
+    },
+    {
+      "destinationId": "DEST_ROOM202",
+      "destinationName": "Room 202",
+      "department": "Computer Science and Engineering",
+      "floorId": "F2",
+      "navigationNodeId": "N_F2_ROOM202",
+      "destinationType": "Classroom",
+      "description": "Second floor classroom"
+    },
+    {
+      "destinationId": "DEST_LAB3",
+      "destinationName": "CSE Lab 3",
+      "department": "Computer Science and Engineering",
+      "floorId": "F2",
+      "navigationNodeId": "N_F2_LAB3",
+      "destinationType": "Laboratory",
+      "description": "Computer laboratory on second floor"
+    },
+    {
+      "destinationId": "DEST_SEMINAR",
+      "destinationName": "Seminar Hall",
+      "department": "Computer Science and Engineering",
+      "floorId": "F2",
+      "navigationNodeId": "N_F2_SEMINAR",
+      "destinationType": "Classroom",
+      "description": "Seminar hall for presentations and events"
+    }
+  ],
+  "nodes": [
+    { "nodeId": "N_F0_ENTRANCE", "floorId": "F0", "x": 0.0, "y": 0.0, "z": 0.0, "label": "Main Entrance", "nodeType": "Entrance" },
+    { "nodeId": "N_F0_CORR1", "floorId": "F0", "x": 5.0, "y": 0.0, "z": 0.0, "label": "GF Corridor 1", "nodeType": "Corridor" },
+    { "nodeId": "N_F0_CORR2", "floorId": "F0", "x": 15.0, "y": 0.0, "z": 0.0, "label": "GF Corridor 2", "nodeType": "Corridor" },
+    { "nodeId": "N_F0_CORR3", "floorId": "F0", "x": 25.0, "y": 0.0, "z": 0.0, "label": "GF Corridor 3", "nodeType": "Corridor" },
+    { "nodeId": "N_F0_CORR4", "floorId": "F0", "x": 35.0, "y": 0.0, "z": 0.0, "label": "GF Corridor 4", "nodeType": "Corridor" },
+    { "nodeId": "N_F0_OFFICE", "floorId": "F0", "x": 10.0, "y": 0.0, "z": 7.0, "label": "CSE Office", "nodeType": "Destination" },
+    { "nodeId": "N_F0_LAB1", "floorId": "F0", "x": 20.0, "y": 0.0, "z": 7.0, "label": "CSE Lab 1", "nodeType": "Destination" },
+    { "nodeId": "N_F0_STAIR_UP", "floorId": "F0", "x": 40.0, "y": 0.0, "z": 0.0, "label": "GF Staircase (Up)", "nodeType": "Staircase" },
+
+    { "nodeId": "N_F1_STAIR_DOWN", "floorId": "F1", "x": 40.0, "y": 4.0, "z": 0.0, "label": "1F Staircase (Down)", "nodeType": "Staircase" },
+    { "nodeId": "N_F1_CORR1", "floorId": "F1", "x": 35.0, "y": 4.0, "z": 0.0, "label": "1F Corridor 1", "nodeType": "Corridor" },
+    { "nodeId": "N_F1_CORR2", "floorId": "F1", "x": 25.0, "y": 4.0, "z": 0.0, "label": "1F Corridor 2", "nodeType": "Corridor" },
+    { "nodeId": "N_F1_CORR3", "floorId": "F1", "x": 15.0, "y": 4.0, "z": 0.0, "label": "1F Corridor 3", "nodeType": "Corridor" },
+    { "nodeId": "N_F1_CORR4", "floorId": "F1", "x": 5.0, "y": 4.0, "z": 0.0, "label": "1F Corridor 4", "nodeType": "Corridor" },
+    { "nodeId": "N_F1_ROOM101", "floorId": "F1", "x": 10.0, "y": 4.0, "z": 7.0, "label": "Room 101", "nodeType": "Destination" },
+    { "nodeId": "N_F1_ROOM102", "floorId": "F1", "x": 20.0, "y": 4.0, "z": 7.0, "label": "Room 102", "nodeType": "Destination" },
+    { "nodeId": "N_F1_LAB2", "floorId": "F1", "x": 30.0, "y": 4.0, "z": 7.0, "label": "CSE Lab 2", "nodeType": "Destination" },
+    { "nodeId": "N_F1_FACULTY1", "floorId": "F1", "x": 5.0, "y": 4.0, "z": 7.0, "label": "Faculty Room 1", "nodeType": "Destination" },
+    { "nodeId": "N_F1_STAIR_UP", "floorId": "F1", "x": 40.0, "y": 4.0, "z": 0.0, "label": "1F Staircase (Up)", "nodeType": "Staircase" },
+
+    { "nodeId": "N_F2_STAIR_DOWN", "floorId": "F2", "x": 40.0, "y": 8.0, "z": 0.0, "label": "2F Staircase (Down)", "nodeType": "Staircase" },
+    { "nodeId": "N_F2_CORR1", "floorId": "F2", "x": 35.0, "y": 8.0, "z": 0.0, "label": "2F Corridor 1", "nodeType": "Corridor" },
+    { "nodeId": "N_F2_CORR2", "floorId": "F2", "x": 25.0, "y": 8.0, "z": 0.0, "label": "2F Corridor 2", "nodeType": "Corridor" },
+    { "nodeId": "N_F2_CORR3", "floorId": "F2", "x": 15.0, "y": 8.0, "z": 0.0, "label": "2F Corridor 3", "nodeType": "Corridor" },
+    { "nodeId": "N_F2_CORR4", "floorId": "F2", "x": 5.0, "y": 8.0, "z": 0.0, "label": "2F Corridor 4", "nodeType": "Corridor" },
+    { "nodeId": "N_F2_ROOM201", "floorId": "F2", "x": 10.0, "y": 8.0, "z": 7.0, "label": "Room 201", "nodeType": "Destination" },
+    { "nodeId": "N_F2_ROOM202", "floorId": "F2", "x": 20.0, "y": 8.0, "z": 7.0, "label": "Room 202", "nodeType": "Destination" },
+    { "nodeId": "N_F2_LAB3", "floorId": "F2", "x": 30.0, "y": 8.0, "z": 7.0, "label": "CSE Lab 3", "nodeType": "Destination" },
+    { "nodeId": "N_F2_SEMINAR", "floorId": "F2", "x": 5.0, "y": 8.0, "z": 7.0, "label": "Seminar Hall", "nodeType": "Destination" }
+  ],
+  "edges": [
+    { "edgeId": "E001", "fromNodeId": "N_F0_ENTRANCE", "toNodeId": "N_F0_CORR1", "cost": 5.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E002", "fromNodeId": "N_F0_CORR1", "toNodeId": "N_F0_CORR2", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E003", "fromNodeId": "N_F0_CORR2", "toNodeId": "N_F0_CORR3", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E004", "fromNodeId": "N_F0_CORR3", "toNodeId": "N_F0_CORR4", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E005", "fromNodeId": "N_F0_CORR4", "toNodeId": "N_F0_STAIR_UP", "cost": 5.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E006", "fromNodeId": "N_F0_CORR1", "toNodeId": "N_F0_OFFICE", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+    { "edgeId": "E007", "fromNodeId": "N_F0_CORR2", "toNodeId": "N_F0_LAB1", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+
+    { "edgeId": "E010", "fromNodeId": "N_F0_STAIR_UP", "toNodeId": "N_F1_STAIR_DOWN", "cost": 6.0, "isBidirectional": true, "edgeType": "Staircase" },
+
+    { "edgeId": "E011", "fromNodeId": "N_F1_STAIR_DOWN", "toNodeId": "N_F1_CORR1", "cost": 5.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E012", "fromNodeId": "N_F1_CORR1", "toNodeId": "N_F1_CORR2", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E013", "fromNodeId": "N_F1_CORR2", "toNodeId": "N_F1_CORR3", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E014", "fromNodeId": "N_F1_CORR3", "toNodeId": "N_F1_CORR4", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E015", "fromNodeId": "N_F1_CORR3", "toNodeId": "N_F1_ROOM101", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+    { "edgeId": "E016", "fromNodeId": "N_F1_CORR2", "toNodeId": "N_F1_ROOM102", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+    { "edgeId": "E017", "fromNodeId": "N_F1_CORR1", "toNodeId": "N_F1_LAB2", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+    { "edgeId": "E018", "fromNodeId": "N_F1_CORR4", "toNodeId": "N_F1_FACULTY1", "cost": 7.0, "isBidirectional": true, "edgeType": "Door" },
+
+    { "edgeId": "E019", "fromNodeId": "N_F1_STAIR_UP", "toNodeId": "N_F1_STAIR_DOWN", "cost": 1.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E020", "fromNodeId": "N_F1_STAIR_UP", "toNodeId": "N_F2_STAIR_DOWN", "cost": 6.0, "isBidirectional": true, "edgeType": "Staircase" },
+
+    { "edgeId": "E021", "fromNodeId": "N_F2_STAIR_DOWN", "toNodeId": "N_F2_CORR1", "cost": 5.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E022", "fromNodeId": "N_F2_CORR1", "toNodeId": "N_F2_CORR2", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E023", "fromNodeId": "N_F2_CORR2", "toNodeId": "N_F2_CORR3", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E024", "fromNodeId": "N_F2_CORR3", "toNodeId": "N_F2_CORR4", "cost": 10.0, "isBidirectional": true, "edgeType": "Corridor" },
+    { "edgeId": "E025", "fromNodeId": "N_F2_CORR3", "toNodeId": "N_F2_ROOM201", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+    { "edgeId": "E026", "fromNodeId": "N_F2_CORR2", "toNodeId": "N_F2_ROOM202", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+    { "edgeId": "E027", "fromNodeId": "N_F2_CORR1", "toNodeId": "N_F2_LAB3", "cost": 8.6, "isBidirectional": true, "edgeType": "Door" },
+    { "edgeId": "E028", "fromNodeId": "N_F2_CORR4", "toNodeId": "N_F2_SEMINAR", "cost": 7.0, "isBidirectional": true, "edgeType": "Door" }
+  ]
+}

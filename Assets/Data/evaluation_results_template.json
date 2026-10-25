@@ -1,0 +1,60 @@
+{
+  "_format_description": "Evaluation results template for Smart Classroom Navigation System. DO NOT fill in fabricated data. All fields should be populated from actual test sessions with real participants.",
+  "evaluation_metadata": {
+    "project_title": "Smart Classroom Navigation System Using Augmented Reality",
+    "institution": "Sathyabama Institute of Science and Technology",
+    "department": "Computer Science and Engineering",
+    "evaluation_date": "",
+    "evaluator_name": "",
+    "building_tested": "CSE Block",
+    "device_used": "",
+    "android_version": "",
+    "ar_calibration_status": "Not calibrated - placeholder coordinates in use"
+  },
+  "test_sessions": [],
+  "user_feedback": [],
+  "aggregate_results": {
+    "_note": "Calculate these values ONLY after completing actual test sessions. Do not pre-fill with expected or target values.",
+    "total_participants": 0,
+    "total_navigation_attempts": 0,
+    "successful_navigations": 0,
+    "navigation_success_rate_percent": null,
+    "average_navigation_time_seconds": null,
+    "correct_destination_identification_count": 0,
+    "destination_identification_rate_percent": null,
+    "average_ar_tracking_quality": "",
+    "average_response_time_seconds": null,
+    "average_arrow_clarity_rating": null,
+    "average_destination_selection_ease": null,
+    "average_overall_usability": null,
+    "average_navigation_accuracy_rating": null,
+    "average_route_following_ease": null
+  },
+  "test_session_template": {
+    "_instructions": "Copy this template for each test session",
+    "sessionId": "SESSION_XXX",
+    "participantId": "P_XXX",
+    "startTime": "",
+    "endTime": "",
+    "startNodeId": "",
+    "destinationId": "",
+    "expectedPath": "",
+    "actualPath": "",
+    "navigationCompleted": false,
+    "correctDestinationReached": false,
+    "navigationTimeSeconds": 0,
+    "arTrackingQuality": "",
+    "responseTimeSeconds": 0,
+    "notes": ""
+  },
+  "feedback_template": {
+    "_instructions": "Copy this template for each participant's feedback. Ratings are 1-5 (1=Poor, 5=Excellent)",
+    "sessionId": "SESSION_XXX",
+    "arrowClarityRating": 0,
+    "destinationSelectionEaseRating": 0,
+    "overallUsabilityRating": 0,
+    "navigationAccuracyRating": 0,
+    "routeFollowingEaseRating": 0,
+    "additionalComments": ""
+  }
+}

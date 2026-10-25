@@ -1,0 +1,16 @@
+﻿[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+.vs/
+.gradle/
+[Dd]ebug/
+[Rr]elease/
+tmp_cdp_profile*/
+_backups/
+*.log
+.DS_Store
+Thumbs.db
+
+Builds/
