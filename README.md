@@ -196,14 +196,6 @@ Run `NavigationTests.cs` from Unity Test Runner or as a standalone console appli
 ### Manual Testing
 See [TESTING_PROTOCOL.md](TESTING_PROTOCOL.md) for the complete evaluation protocol.
 
-## Authors
-
-Based on the research paper "Smart Classroom Navigation System Using Augmented Reality" by:
-- R Kavya, M Lyka Israth, Krothapalli Mokshagna, Kovvuru Pujitha
-- Under guidance of Srideivanai Nagarajan, Assistant Professor
-- Department of Computer Science and Engineering
-- Sathyabama Institute of Science and Technology, Chennai, Tamil Nadu, India
-
 ## License
 
 This project is developed for academic and educational purposes at Sathyabama Institute of Science and Technology.
